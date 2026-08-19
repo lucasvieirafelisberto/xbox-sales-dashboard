@@ -6,7 +6,7 @@
 
 ## 📋 Sobre o Projeto
 
-Este projeto tem como objetivo transformar dados brutos de assinaturas Xbox Game Pass em um **dashboard de vendas interativo no Excel**, permitindo análise visual clara do desempenho comercial e suporte à tomada de decisões baseada em dados.
+Este projeto tem como objetivo transformar dados brutos de assinaturas Xbox Game Pass em um **dashboard de vendas profissional no Microsoft Excel**, permitindo análise visual clara do desempenho comercial e suporte à tomada de decisões baseada em dados.
 
 O desafio foi proposto pela plataforma **DIO (Digital Innovation One)** em parceria com a **TOTVS**, como parte da trilha de **Fundamentos de Engenharia de Dados e Machine Learning**.
 
@@ -67,13 +67,13 @@ Paleta de cores oficial da marca Xbox utilizada em todo o dashboard:
 Tabela formatada com todos os **295 registros brutos** de assinantes, com:
 - Cabeçalhos em verde Xbox
 - Linhas alternadas para leitura facilitada
-- Coluna congelada (freeze pane) na linha 1
+- Freeze pane na linha 1 para navegação facilitada
 - Formatação de datas e valores monetários
 
 ---
 
 ### 🔢 Aba 3 — Cálculos
-Análises respondendo às **5 perguntas de negócio**:
+Análises com Tabelas Dinâmicas e fórmulas Excel respondendo às **5 perguntas de negócio**:
 
 | # | Pergunta de Negócio |
 |---|---|
@@ -116,7 +116,7 @@ Painel visual com:
 | Tipo mais popular | **Monthly** (139 assinantes) |
 | Maior receita por tipo | **Monthly** ($3.571) |
 | Add-on mais adotado | **Minecraft** (194 assinantes) |
-| Receita Annual com renovação | $1.537 (87,6% do total anual) |
+| Receita Anual com renovação | $1.537 (87,6% do total anual) |
 | Ticket Médio Ultimate | **$54,98** |
 | Ticket Médio Core | **$4,40** |
 
@@ -124,32 +124,17 @@ Painel visual com:
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Microsoft Excel** — Dashboard, tabelas e gráficos
-- **Python 3 + pandas** — ETL e análise exploratória dos dados
-- **openpyxl** — Geração e formatação programática do Excel
-- **LibreOffice** — Recalculação e validação de fórmulas
+- **Microsoft Excel** — Dashboard, tabelas dinâmicas, gráficos e formatação
+- **Git** — Controle de versão
+- **GitHub** — Hospedagem e entrega do projeto
 
 ---
 
 ## ▶️ Como Reproduzir
 
-### Opção 1 — Abrir direto no Excel
 1. Faça o download do arquivo `Xbox_Sales_Dashboard.xlsx`
-2. Abra com Microsoft Excel 2016 ou superior (ou LibreOffice Calc)
+2. Abra com **Microsoft Excel 2016** ou superior
 3. Navegue pelas 4 abas: **Assets → Bases → Cálculos → Dashboard**
-
-### Opção 2 — Recriar via Python
-```bash
-# Clone o repositório
-git clone https://github.com/SEU_USUARIO/xbox-sales-dashboard.git
-cd xbox-sales-dashboard
-
-# Instale as dependências
-pip install pandas openpyxl
-
-# Execute o script de geração
-python build_dashboard.py
-```
 
 ---
 
@@ -161,7 +146,10 @@ Os dados são fictícios, gerados para fins educacionais no contexto do desafio 
 
 ## 👤 Autor
 
-Desenvolvido por Lucas Vieira como parte do desafio **DIO × TOTVS — Fundamentos de Engenharia de Dados e Machine Learning**.
+Desenvolvido por **Lucas Vieira** como parte do desafio **DIO × TOTVS — Fundamentos de Engenharia de Dados e Machine Learning**.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lucas%20Vieira-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/lucasvieirafelisberto)
+[![GitHub](https://img.shields.io/badge/GitHub-lucasvieirafelisberto-181717?style=flat&logo=github)](https://github.com/lucasvieirafelisberto)
 
 ---
 
